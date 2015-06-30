@@ -14,6 +14,7 @@
 		B282599B1B429C5900DB3123 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B282599A1B429C5900DB3123 /* Images.xcassets */; };
 		B282599E1B429C5900DB3123 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B282599C1B429C5900DB3123 /* LaunchScreen.xib */; };
 		B28259AA1B429C5900DB3123 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B28259A91B429C5900DB3123 /* Git_TestTests.m */; };
+		B28259B51B42A03F00DB3123 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = B28259B41B42A03F00DB3123 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B28259A31B429C5900DB3123 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28259A81B429C5900DB3123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B28259A91B429C5900DB3123 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		B28259B31B42A03F00DB3123 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test.h; path = ../Test.h; sourceTree = "<group>"; };
+		B28259B41B42A03F00DB3123 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = ../Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				B28259941B429C5900DB3123 /* ViewController.h */,
 				B28259951B429C5900DB3123 /* ViewController.m */,
 				B28259971B429C5900DB3123 /* Main.storyboard */,
+				B28259B31B42A03F00DB3123 /* Test.h */,
+				B28259B41B42A03F00DB3123 /* Test.m */,
 				B282599A1B429C5900DB3123 /* Images.xcassets */,
 				B282599C1B429C5900DB3123 /* LaunchScreen.xib */,
 				B282598D1B429C5900DB3123 /* Supporting Files */,
@@ -219,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B28259961B429C5900DB3123 /* ViewController.m in Sources */,
+				B28259B51B42A03F00DB3123 /* Test.m in Sources */,
 				B28259931B429C5900DB3123 /* AppDelegate.m in Sources */,
 				B28259901B429C5900DB3123 /* main.m in Sources */,
 			);
